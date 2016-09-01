@@ -1,2 +1,2 @@
 # furthest-pair
-Finds the furthest pair efficiently within a set of points
+Finds the furthest pair efficiently within a set of points. Uses Jarvis scan to find the convex hull of the set of points, and antipodal pairs to find the furthest pair within the hull. The furthest pair is highlighted once the search is complete. Delay is implemented so you can visually see the process. Also, one the search is complete, a brute force algorithm also runs to circle and confirm the furthest pair.
